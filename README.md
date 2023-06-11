@@ -1,5 +1,7 @@
 # vscode-devcontainer-wordpress
-Wordpress + MariaDB &amp; phpmyadmin (mysql) in vscode devcontainer
+Wordpress + MariaDB &amp; phpmyadmin (mysql) in vscode devcontainer.
+
+Using docker with vscode devcontainer for local wordpress development environment.
 
 Based off Automattic's writeup by Cameron Pavey: https://developer.wordpress.com/2022/11/14/seetup-local-development-environment-for-wordpress/
 
