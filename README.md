@@ -12,3 +12,12 @@ Setup Used:
     - `ms-vscode-remote.vscode-remote-extensionpack`
     - `ms-vscode-remote.remote-wsl`
     - `ms-vscode-remote.remote-containers`
+
+Instructions:
+1. VSCode: Ctrl + Shift + P (Command Palette)
+2. Select `Dev Containers: Rebuild Without Cache and Reopen in Container`
+3. [Optional] Click on prompt: `Starting Dev Container (show log)`
+
+Important Notes:
+- Wordpress available on port 8080: http://localhost:8080
+- phpmyadmin available on port 8180: http://localhost:8180 
