@@ -5,6 +5,8 @@ services:
    container_name: wordpress
    volumes:
      - ../wordpress_public_html:/var/www/html
+    # For troubleshooting read/write permissions with /var/www/html
+    # - ../wordpress_public_html:/var/www/html:rw
    environment:
      - WORDPRESS_DB_NAME=wordpress
      - WORDPRESS_TABLE_PREFIX=wp_
