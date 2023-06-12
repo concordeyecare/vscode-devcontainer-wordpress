@@ -39,3 +39,7 @@ services:
    volumes:
      - ../wordpress_public_html:/var/www/html:rw
 ```
+
+## References
+- [WordPress Developer Blog - Automattic Writeup on Setup Local Docker Developer Environment for WordPress](https://developer.wordpress.com/2022/11/14/seetup-local-development-environment-for-wordpress/)
+- [StackOverflow - WordPress Docker File System/File Permission Issues](https://stackoverflow.com/questions/68343519/docker-wordpress-cant-update-install-plugins)
